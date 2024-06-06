@@ -1,5 +1,3 @@
-Claro, aqui está como você pode usar um ConfigMap com o NGINX e Kubernetes, e depois verificar o conteúdo do arquivo dentro do container:
-
 1. **Crie um ConfigMap**: Você pode usar o comando `kubectl create configmap` para criar um ConfigMap a partir de valores literais, diretórios ou arquivos. Por exemplo, se você tem um arquivo de configuração do NGINX chamado `nginx.conf`, você pode criar um ConfigMap com ele da seguinte maneira:
 
 ```bash
@@ -53,4 +51,4 @@ kubectl exec -it <nome-do-pod> -- cat /etc/nginx/nginx.conf
 
 Substitua `<nome-do-pod>` pelo nome real do seu Pod. Isso exibirá o conteúdo do arquivo `nginx.conf` dentro do container.
 
-Espero que isso ajude a entender como usar ConfigMaps com Kubernetes e NGINX. Se você tiver mais perguntas, fique à vontade para perguntar!
+
